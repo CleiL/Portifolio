@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta   name="Autor" content="Clei Lisboa">
+    <title>Portifolio Clei Lisboa</title>
+
+    <link rel="stylesheet" href="css/script.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="js/script.js" defer></script>    
+
+
+</head>
+<body>
+    <header><!--inicio cabeçalho-->
+        <div class="caixaCabecalho"> <!-- inicio barra de navegação -->
+            <img class="imgCabecalho" src="img/cleitech.svg" alt="Logo Clei Programador">
+            <nav id="barraMenu" class="barraNavegacao"> <!-- barra de menu -->
+                <a class="barraMenu" href="#apresentacao">Inicio</a>
+                <a class="barraMenu" href="#sobremim">Sobre</a>
+                <a class="barraMenu" href="#">Skills</a>
+                <a class="barraMenu" href="#telefone">Contato</a>
+            </nav> <!-- fim barra de menu -->
+            <a id="barraNavegacao" onclick="mostrarMenu()" href="#"><img class="barsNavegacao" src="img/bars-solid.svg" alt=""></a>
+        </div> <!-- fim barra de navegação -->
+    </header><!-- Fim do cabeçalho-->
+    <div id="apresentacao" class="apresentacao"><!-- Inicio do Texto de apresentação-->
+        <div class="textoApresentacao"> <!-- Um breve texto de apresentação -->
+            <p>Seja bem vindo <br> Sou Clei Lisboa <br> Programador Full Stack</p>
+            <div class="redeApresentacao"> <!-- links redes sociais -->
+                <a class="bgit" href=""><img src="img/git.svg" alt="botão para o git"></a>
+                <a class="blinkedin" href=""><img src="img/linkedin.svg" alt="botão para o linkedin"></a>   
+            </div> <!-- fim links redes sociais -->
+        </div> <!-- fim do texto de apresentação -->
+        <div class="imgApresentacao"> <!-- gif animaod de um programador-->
+            <img class="imgApre" src="img/imgapresentacao.svg" alt="gif animado de um Progrmador">
+        </div><!-- fim gif animaod de um programador-->
+    </div><!-- Fim do Texto de apresentação-->
+    <div id="sobremim" class="sobreMim"><!-- Inicio do Texto sobre mim-->
+        <div class="imgsobreMim"> <!-- gif animaod de um programador-->
+            <img src="img/cleidev.svg" alt="gif Programador">
+        </div> <!-- fim do gif animaod de um programador-->
+        <div class="textoSobremim"> <!-- Texto descrevendo o sobre o autor-->
+            <p>Formado em Engenharia Mecânica. <br>Em 2021 decidi mudar  de área de atuação. <br>Iniciei como Programador Full Stack. <br> Estou dando continuidade nas áreas de Cientista de Dados e Análise e Desenvolvimento de Sistemas. </p>
+        </div> <!-- fim do Texto descrevendo o sobre o autor-->
+    </div><!-- Fim do Texto sobre mim-->
+    <footer><!-- Inicio do rodapé-->
+            <div class="redeSocial"> <!-- links redes sociais -->
+                <a href=""><img src="img/facee.svg" alt="logo facebook"></a>
+                <a href=""><img src="img/insta.svg" alt="logo instagram"></a>
+                <a href=""><img src="img/linkedin.svg" alt="logo linkedin"></a>
+                <a href=""><img src="img/twitter.svg" alt="logo twitter"></a>
+                <a href=""><img src="img/git.svg" alt="logo git"></a>
+            </div><!-- Fim dos links redese sociais-->
+            <divi class="blocoMeio"> <!-- Texto de quem desenvolveu -->
+                <div id="contato" class="feedback">
+                    <form>
+                        <input type="text" placeholder="Seu Nome">
+                        <input type="email" placeholder="Seu e-mail">
+                        <input type="Tel" placeholder="Seu Telefone (Opicional)">
+                        <textarea placeholder="Sua Mensagem"></textarea>
+                        <button type="submit">Enviar</button>
+                        <p> &copy; Desenvolvido por <br> Clei Lisboa <br>Programador Full Stack</p>
+                    </form>
+                </div>
+            </divi> <!-- fim Texto de quem desenvolveu-->
+            <div class="linksContato"> <!-- Links de contato -->
+                <div id="telefone" class="tel">
+                    <a href=""><img src="img/whats.svg" alt=""><p>+55(11) 971 822 466</p></a>
+                </div>
+                <div class="email">
+                    <a href=""><img src="img/email.svg" alt=""><p>clei.lisboa@gmail.com <br> clei.lisboa@hotmail.com</p></a>
+                </div>           
+            </div> <!-- fim Links de contato -->
+    </footer><!-- Fim do rodapé-->
+
+</body>
+</html>
